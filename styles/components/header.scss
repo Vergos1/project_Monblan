@@ -1,0 +1,84 @@
+@import "../variables";
+@import "../mixins";
+
+.header__sprite {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+#header {
+    min-width: 100%;
+    background: $background-white;
+    background-color: rgba(255, 255, 255, 0.67);
+    position: relative;
+    z-index: 10;
+
+    .header__wrapper {
+        @include flex-center;
+        gap: 60px;
+    }
+
+    .header__item {
+        @include gap(16px);
+    }
+
+    .header__stats-container,
+    .header__buttons-container,
+    .header__title-container {
+        @include flex-center-vert;
+    }
+
+    .header__title-container {
+        gap: 16px;
+    }
+
+    .header__stats-container,
+    .header__buttons-container {
+        gap: 24px;
+    }
+
+    .header__title {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 29px;
+    }
+
+    .header__date {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        color: $text-blue;
+        padding: 6px 12px;
+        border: 1px solid $border-blue;
+        font-family: $font-roboto;
+        border-radius: 2px;
+    }
+
+    .header__stats {
+        font-family: $font-roboto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        color: $text-black;
+
+        &_selected {
+            font-weight: 700;
+        }
+    }
+
+    .header__date-picker-item {
+        @include flex-center-vert;
+        gap: 10px;
+    }
+
+    .header__label {
+        font-family: $font-roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 16px;
+    }
+}

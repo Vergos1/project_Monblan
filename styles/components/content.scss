@@ -1,0 +1,88 @@
+@import "../variables";
+@import "../mixins";
+
+#content {
+    position: relative;
+    z-index: 10;
+    min-width: 100%;
+
+    .content__wrapper {
+        @include gap(8px);
+        min-width: 100%;
+        background-color: rgba(255, 255, 255, 0.67);
+    }
+
+    .content__item {
+        @include flex-between;
+        gap: 8px;
+        min-width: 100%;
+    }
+
+    .content__column {
+        @include flex-center-vert;
+        gap: 30px;
+    }
+
+    .content__stats-container {
+        @include gap(8px);
+    }
+
+    .content__stats {
+        @include flex-center-vert;
+        gap: 24px;
+    }
+
+    .content__image {
+        width: 86px;
+        height: 86px;
+        max-width: 86px;
+        max-height: 86px;
+        object-fit: cover;
+    }
+
+    .content__title {
+        font-family: $font-roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+    }
+
+    .content__stats-comments-count,
+    .content__stats-likes-count {
+        font-family: $font-roboto;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16px;
+    }
+
+    .content__date {
+        font-family: $font-roboto;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16px;
+    }
+
+    .content__button-container {
+        margin-top: 30px;
+        @include flex-center;
+    }
+
+    .content__button {
+        text-transform: uppercase;
+        color: $text-dark-grey;
+        font-family: $font-roboto;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        border: 1px solid $border-dark-grey;
+        border-radius: 14px;
+        padding: 8px 26px;
+        cursor: pointer;
+        @include transition(all, $transition-default);
+
+        &:hover {
+            border: 1px solid $border-black;
+            color: $text-black;
+        }
+    }
+}

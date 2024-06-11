@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@duetds/date-picker": "^1.4.0"
+  }
+}

@@ -1,0 +1,80 @@
+// >>>> default colors <<<<
+$white: #ffffff;
+$grey: #DEDEDE;
+$light-grey: #FAFAFA;
+$dark-grey: #929292;
+$ultra-dark-grey: #1D1D1D;
+$black-ultra-dark-grey: #1E1E1E;
+$graphite: #1C1C21;
+$blue: #3D8EDA;
+$black: #000000;
+$ultra-black: #090909;
+
+// >>>> text colors <<<<
+$text-white: $white;
+$text-light-grey: $light-grey;
+$text-grey: $grey;
+$text-dark-grey: $dark-grey;
+$text-blue: $blue;
+$text-black: $black;
+
+// >>>> input text colors <<<<
+$input-white: $white;
+$input-black: $black;
+
+// >>>> links text colors <<<<
+$link-secondary: $blue;
+$link-tertiary: $grey;
+$link-white: $white;
+$link-black: $black;
+
+
+// >>>> button text colors <<<<
+$button-white: $white;
+$button-black: $black;
+
+// >>>> backgrounds colors <<<<
+$background-main: $light-grey;
+$background-black: $black;
+$background-white: $white;
+$background-grey: $grey;
+$background-ultra-black: $ultra-black;
+
+// >>>> icon colors <<<<
+$icon-white: $white;
+$icon-black: $black;
+
+// >>>> border colors <<<<
+$border-white: $white;
+$border-black: $black;
+$border-grey: $grey;
+$border-light-grey: $light-grey;
+$border-dark-grey: $dark-grey;
+$border-blue: $blue;
+$border-graphite: $graphite;
+$border-ultra-dark-grey: $ultra-dark-grey;
+
+// >>>> link transitions <<<<
+$transition-default: 0.15s ease-in-out;
+$transition-default-default: 0.25s ease-in-out;
+$transition-link: 0.15s ease-in-out;
+$transition-background-link: background-color 0.25s ease-in-out;
+$transition-border-link: border 0.25s ease-in-out;
+$transition-color-link: color 0.25s ease-in-out;
+$transition-block: all 0.35s ease-in-out;
+$transition-all-link: all 0.25s ease-in-out;
+
+// >>>> z-index <<<<
+$z-index-first: 1;
+$z-index-second: 2;
+$z-index-third: 3;
+$z-index-fourth: 4;
+$z-index-modal: 5;
+$z-index-modal-second: 6;
+$z-index-modal-third: 7;
+$z-index-very-important: 8;
+
+
+// >>>> fonts <<<<
+$font-montserrat: 'Montserrat', sans-serif;
+$font-roboto: 'Roboto', sans-serif;

@@ -1,0 +1,79 @@
+/* ===== Usage ===== */
+/* ===== Usage ===== */
+/* ===== Usage ===== */
+/* ===== Usage ===== */
+.header__sprite {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+#header {
+  min-width: 100%;
+  background: #ffffff;
+  background-color: rgba(255, 255, 255, 0.67);
+  position: relative;
+  z-index: 10;
+}
+#header .header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+#header .header__item {
+  display: grid;
+  gap: 16px;
+}
+#header .header__stats-container,
+#header .header__buttons-container,
+#header .header__title-container {
+  display: flex;
+  align-items: center;
+}
+#header .header__title-container {
+  gap: 16px;
+}
+#header .header__stats-container,
+#header .header__buttons-container {
+  gap: 24px;
+}
+#header .header__title {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+}
+#header .header__date {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #3D8EDA;
+  padding: 6px 12px;
+  border: 1px solid #3D8EDA;
+  font-family: "Roboto", sans-serif;
+  border-radius: 2px;
+}
+#header .header__stats {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #000000;
+}
+#header .header__stats_selected {
+  font-weight: 700;
+}
+#header .header__date-picker-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#header .header__label {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+}/*# sourceMappingURL=header.css.map */

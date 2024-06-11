@@ -1,0 +1,18 @@
+{
+  "entries": [
+    "./components/duet-date-picker/duet-date-picker.js"
+  ],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "2.4.0",
+    "typescriptVersion": "4.1.3"
+  },
+  "collections": [],
+  "bundles": [
+    {
+      "components": [
+        "duet-date-picker"
+      ]
+    }
+  ]
+}
